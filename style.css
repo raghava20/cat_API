@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to left top, #ae1d54, #891557, #621452, #3c1347, #180d36);
+  }
+  
+  .user-list {
+    display: grid;
+    place-content: center;
+  }
+  
+  .user-container {
+      display: flex;
+    margin: 15px;
+    padding: 15px;
+    background: White;
+    border-radius: 15px;
+    max-width: 500px;
+    gap: 16px;
+    transition: 0.2 all;
+  }
+  
+  
+  
+  img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  
+  section{
+      display: flex;
+  /*   flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top:30px;
+  }
+  
+  .add-cat-name{
+    
+      display: flex;
+    flex-direction: column;
+  /*   padding-right: 50px;  */
+    width: 95%;
+    margin-bottom: 2px;
+    background: white;
+     border-radius: 5px;
+    font-size: 16px;
+  }
